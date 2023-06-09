@@ -25,6 +25,7 @@ public class AFKLoot extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Register the event listener
+        System.out.println("AFKLoot Plugin Activated");
         getServer().getPluginManager().registerEvents(this, this);
     }
 
