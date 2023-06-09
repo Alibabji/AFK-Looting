@@ -4,3 +4,15 @@ main: online.alibabji.afkloot.AFKLoot
 api-version: 1.19
 author: Alibabji
 description: makes players able to access disconnected player's inventory (Inpired by Heptagram)
+commands:
+  afklooton:
+    description: Enable the AFKLoot plugin
+    usage: /afkloot:on
+    permission: afkloot.enable
+    executor: online.alibabji.afkloot.commands.AFKLootOnCommand
+
+  afklootoff:
+    description: Disable the AFKLoot plugin
+    usage: /afkloot:off
+    permission: afkloot.disable
+    executor: online.alibabji.afkloot.commands.AFKLootOffCommand
