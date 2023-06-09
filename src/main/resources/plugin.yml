@@ -2,4 +2,5 @@ name: AFKLoot
 version: '${project.version}'
 main: online.alibabji.afkloot.AFKLoot
 api-version: 1.19
-
+author: Alibabji
+description: makes players able to access disconnected player's inventory (Inpired by Heptagram)
